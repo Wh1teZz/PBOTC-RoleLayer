@@ -2,8 +2,7 @@
 	"use strict";
 
 	if (
-		RegExp("/r/danganronpa/", "i").test(location.href) &&
-		!RegExp("class trial", "i").test(document.title)
+		RegExp("/r/pbotc/", "i").test(location.href)
 	)
 		return;
 

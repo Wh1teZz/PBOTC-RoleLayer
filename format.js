@@ -20,8 +20,7 @@ var uri_appspot = RegExp("r-drrp\\.appspot\\.com"),
 
 function executeFormat() {
 	if (
-		RegExp("/r/danganronpa/", "i").test(location.href) &&
-		!RegExp("class trial", "i").test(document.title)
+		RegExp("/r/pbotc/", "i").test(location.href)
 	)
 		return;
 

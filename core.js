@@ -40,7 +40,7 @@
 
 		tag = document.createElement("span");
 		tag.className = "micro";
-		tag.textContent = "DANGANREDDIT CLASS TRIAL HELPER";
+		tag.textContent = "PBOTC HELPER";
 		section.appendChild(tag);
 
 		tag = document.createElement("span");
@@ -302,7 +302,7 @@
 		let buttonGb = document.createElement('buttonGb');
 		buttonGb.textContent = 'Show all messages';
 		buttonGb.onclick = function() {
-		  window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/';
+		  window.location.href = 'https://www.reddit.com/r/pbotc/comments/';
 		};
 		return buttonGb;
 	}
@@ -310,21 +310,21 @@
 	var siteTable = document.getElementById('siteTable');
 	let isButton = false;
 
-    if (window.location.href.endsWith('DanganRoleplay/comments/') || window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
+    if (window.location.href.endsWith('pbotc/comments/') || window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
         var buttonCt = document.createElement('buttonCt');
 		var buttonPb = document.createElement('buttonPb');
 		let buttonGb = createButton();
         buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
 		buttonPb.textContent = 'Hide Class Trial comments';
         buttonCt.onclick = function() {
-            window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
+            window.location.href = 'https://www.reddit.com/r/pbotc/comments/#ct';
 			if (isButton == false) {
 			siteTable.parentNode.insertBefore(buttonGb, siteTable);
 			isButton == true;
 			}
         };
 		buttonPb.onclick = function() {
-			window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#pbotc';
+			window.location.href = 'https://www.reddit.com/r/pbotc/comments/#pbotc';
 			if (isButton == false) {
 				siteTable.parentNode.insertBefore(buttonGb, siteTable);
 				isButton == true;

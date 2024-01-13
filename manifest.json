@@ -21,17 +21,7 @@
         "matches": [
           "*://*.reddit.com/message/*",
           "*://*.reddit.com/user/*",
-          "*://*.reddit.com/r/DanganRonpa/comments/*",
-          "*://*.reddit.com/r/Danganronpa/comments/*",
-          "*://*.reddit.com/r/danganronpa/comments/*",
-          "*://*.reddit.com/r/DanganRoleplay/comments/*",
-          "*://*.reddit.com/r/Danganroleplay/comments/*",
-          "*://*.reddit.com/r/danganroleplay/comments/*",
-          "*://*.reddit.com/r/DanganRoleplayBrasil/comments/*",
-          "*://*.reddit.com/r/danganroleplaybrasil/comments/*",
-          "*://*.reddit.com/r/Danganroleplaybrasil/comments/*",
-          "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
-          "*://*.reddit.com/r/vlnq/comments/*"
+          "*://*.reddit.com/r/pbotc/"
         ],
         "run_at": "document_start"
       },
@@ -44,11 +34,7 @@
           "settingapplication.js"
         ],
         "matches": [
-          "*://*.reddit.com/r/DanganRoleplay/*",
-          "*://*.reddit.com/r/Danganroleplay/*",
-          "*://*.reddit.com/r/danganroleplay/*",
-          "*://*.reddit.com/r/DRRPSpriteTester/*",
-          "*://*.reddit.com/r/vlnq/*"
+          "*://*.reddit.com/r/pbotc/"
         ],
         "run_at": "document_start"
       },
@@ -69,11 +55,7 @@
           "youtubeplayer.js"
         ],
         "matches": [
-          "*://*.reddit.com/r/DanganRoleplay/comments/*",
-          "*://*.reddit.com/r/Danganroleplay/comments/*",
-          "*://*.reddit.com/r/danganroleplay/comments/*",
-          "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
-          "*://*.reddit.com/r/vlnq/comments/*"
+          "*://*.reddit.com/r/pbotc/"
         ],
         "run_at": "document_end"
       },
@@ -93,14 +75,12 @@
           "youtubeplayer.js"
         ],
         "matches": [
-          "*://*.reddit.com/r/DanganRonpa/comments/*",
-          "*://*.reddit.com/r/Danganronpa/comments/*",
-          "*://*.reddit.com/r/danganronpa/comments/*"
+          "*://*.reddit.com/r/pbotc/"
         ],
         "run_at": "document_end"
       }
     ],
-    "description": "A fix for the current rolelayer extension.",
+    "description": "JZT's PBOTC RoleLayer Extension (forked from Vulniq/Mako's RoleLayer)",
     "icons": {
       "128": "icon-128.png",
       "16": "icon-16.png",
@@ -109,7 +89,7 @@
       "96": "icon-96.png"
     },
     "manifest_version": 3,
-    "name": "Mako's RoleLayer Fix",
+    "name": "JZT's PBOTC RoleLayer",
     "options_ui": {
       "page": "options.html"
     },
@@ -127,6 +107,6 @@
     ],
     "content_security_policy": {},
     "host_permissions": [
-      "http://*/"
+      "*://*.reddit.com/*"
     ]
   }
