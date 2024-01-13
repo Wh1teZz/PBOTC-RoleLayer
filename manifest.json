@@ -107,6 +107,6 @@
     ],
     "content_security_policy": {},
     "host_permissions": [
-      "https://reddit.com/"
+      "https://old.reddit.com/"
     ]
   }
