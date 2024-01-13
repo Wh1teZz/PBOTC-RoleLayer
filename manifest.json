@@ -93,7 +93,7 @@
     "options_ui": {
       "page": "options.html"
     },
-    "version": "0.9",
+    "version": "0.1",
     "web_accessible_resources": [
       {
         "resources": [
@@ -107,6 +107,6 @@
     ],
     "content_security_policy": {},
     "host_permissions": [
-      "*://*.reddit.com/*"
+      "https://reddit.com/"
     ]
   }
