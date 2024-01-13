@@ -310,19 +310,10 @@
 	var siteTable = document.getElementById('siteTable');
 	let isButton = false;
 
-    if (window.location.href.endsWith('pbotc/comments/') || window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
-        var buttonCt = document.createElement('buttonCt');
+    if (window.location.href.endsWith('pbotc/comments/') || window.location.href.endsWith('#pbotc')) {
 		var buttonPb = document.createElement('buttonPb');
 		let buttonGb = createButton();
-        buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
-		buttonPb.textContent = 'Hide Class Trial comments';
-        buttonCt.onclick = function() {
-            window.location.href = 'https://www.reddit.com/r/pbotc/comments/#ct';
-			if (isButton == false) {
-			siteTable.parentNode.insertBefore(buttonGb, siteTable);
-			isButton == true;
-			}
-        };
+		buttonPb.textContent = 'Hide Pink Blood on the Clocktower comments';
 		buttonPb.onclick = function() {
 			window.location.href = 'https://www.reddit.com/r/pbotc/comments/#pbotc';
 			if (isButton == false) {
@@ -330,28 +321,17 @@
 				isButton == true;
 			}
 		}
-        siteTable.parentNode.insertBefore(buttonCt, siteTable);
 		siteTable.parentNode.insertBefore(buttonPb, siteTable);
     }
 	  
-	if (window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
+	if (window.location.href.endsWith('#pbotc')) {
 		let buttonGb = createButton();
 		siteTable.parentNode.insertBefore(buttonGb, siteTable);
 		isButton = true;
 	}	  
 	  
 	function hideElements() {
-		let buttonCt = document.getElementsByTagName('buttonCt')[0];
 		let buttonPb = document.getElementsByTagName('buttonPb')[0];
-        if (window.location.href.endsWith('#ct')) {
-			buttonCt.classList.add('in-page');
-			buttonCt.href = '';
-            let elements = document.getElementsByClassName('linkflair-pbotc');
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].style.display = 'none';
-            }
-        }
-
 		if (window.location.href.endsWith('#pbotc')) {
 			buttonPb.classList.add('in-page');
 			buttonPb.href = '';
