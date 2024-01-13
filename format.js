@@ -19,10 +19,6 @@ var uri_appspot = RegExp("r-drrp\\.appspot\\.com"),
 	);
 
 function executeFormat() {
-	if (
-		RegExp("/r/pbotc/", "i").test(location.href)
-	)
-		return;
 
 	document.body.classList.add(CLASSNAMES.RLACTIVE);
 

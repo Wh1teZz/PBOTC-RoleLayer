@@ -21,7 +21,7 @@
         "matches": [
           "*://*.reddit.com/message/*",
           "*://*.reddit.com/user/*",
-          "*://*.reddit.com/r/pbotc/"
+          "*://*.reddit.com/r/pbotc/*"
         ],
         "run_at": "document_start"
       },
@@ -34,7 +34,7 @@
           "settingapplication.js"
         ],
         "matches": [
-          "*://*.reddit.com/r/pbotc/"
+          "*://*.reddit.com/r/pbotc/*"
         ],
         "run_at": "document_start"
       },
@@ -55,7 +55,7 @@
           "youtubeplayer.js"
         ],
         "matches": [
-          "*://*.reddit.com/r/pbotc/"
+          "*://*.reddit.com/r/pbotc/*"
         ],
         "run_at": "document_end"
       },
@@ -75,7 +75,7 @@
           "youtubeplayer.js"
         ],
         "matches": [
-          "*://*.reddit.com/r/pbotc/"
+          "*://*.reddit.com/r/pbotc/*"
         ],
         "run_at": "document_end"
       }
@@ -107,6 +107,6 @@
     ],
     "content_security_policy": {},
     "host_permissions": [
-      "https://old.reddit.com/"
+      "https://*.reddit.com/"
     ]
   }
