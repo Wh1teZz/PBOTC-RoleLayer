@@ -1,11 +1,6 @@
 (function(DR, document) {
 	"use strict";
 
-	if (
-		RegExp("/r/pbotc/", "i").test(location.href)
-	)
-		return;
-
 	function createBulletButton(target) {
 		var button = document.createElement("a");
 

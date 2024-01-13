@@ -1,11 +1,6 @@
 (function(DR, document) {
 	"use strict";
 
-	if (
-		RegExp("/r/pbotc/", "i").test(location.href)
-	)
-		return;
-
 	DR.addListener("rolesidentified", function(roles) {
 		requestAnimationFrame(function() {
 			document
