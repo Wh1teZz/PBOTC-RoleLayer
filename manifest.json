@@ -80,7 +80,7 @@
         "run_at": "document_end"
       }
     ],
-    "description": "Sprite helper for Reddit PBOTC (Pink Blood on the Clocktower), and a fork of Mako's RoleLayer Fix, updated for the PBOTC reddit page. A fork for the current RP focused helper plugin to add images, videos and media in general, and format comments on Reddit. You can also embed youtube videos and display them next to your comment for various purposes, but it's intended for background music, as the display is made to be small, as shown in the screenshot. Source code by Vulniq, plugin fix by Makosear, forked for /r/pbotc by JZT.",
+    "description": "Sprite helper for /r/pbotc, a community BOTC RP page.",
     "icons": {
       "128": "icon-128.png",
       "16": "icon-16.png",
@@ -89,7 +89,7 @@
       "96": "icon-96.png"
     },
     "manifest_version": 3,
-    "name": "JZT's PBOTC RoleLayer (forked from Mako's RoleLayer Fix, source code by Vulniq)",
+    "name": "JZT's /r/pbotc RoleLayer",
     "options_ui": {
       "page": "options.html"
     },
